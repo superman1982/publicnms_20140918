@@ -1,0 +1,14 @@
+﻿@CHARSET "UTF-8";
+
+body { margin:0px; padding:0px; background:#6d747c; width:100%; }
+/*head div*/
+.top_bg { background:url(../images/top.jpg) repeat-x; width:100%;}
+/*帮助、退出 head div == 右上角 ^-^*/
+span.icons_box{float:right;margin-right:20px; margin-top:16px;}
+span.icons_box a{font-size:12px;color: white;text-decoration: none; cursor: hand;}
+span.icons_box a:hover{cursor: pointer;}
+/*head div 导航图标*/
+.sf-menu{margin-left: 400px;}
+ul.sf-menu li {color: white;text-decoration: none;}
+ul.sf-menu li{float:left; font-size:12px; display:block; padding: 16px; text-align: center; }
+ul.sf-menu li img{ width: 62px;height: 54px;}

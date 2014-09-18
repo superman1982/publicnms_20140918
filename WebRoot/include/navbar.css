@@ -1,0 +1,196 @@
+/* 所有的 table 默认样式*/
+table{
+	border:0;
+	margin:0;
+	border-collapse:collapse;
+}
+
+/* 所有的 td 默认样式*/
+td{
+	padding:0;
+}
+
+/* =======页面菜单样式 ==========*/
+.td-container-menu-bar{
+	vertical-align:top;
+	width:200px;
+}
+
+/* 页面菜单总体样式 */
+#container-menu-bar{
+	width:200px;
+	background-position :top right; 
+	text-align:center;
+	background-image:url("../resource/image/global/menuBarBackground.jpg");
+	background-repeat:no-repeat;
+}
+
+#container-menu-bar1{
+	width:200px;
+	background-position :top right; 
+	text-align:center;
+	background-image:url("../resource/image/global/menuBarBackground.jpg");
+	background-repeat:no-repeat;
+}
+
+.menu-bar{
+	/*菜单总体宽度*/
+	width:190px;
+	margin: 10px auto;
+	position :relative;
+	
+}
+
+/* 页面每个菜单头部样式 */
+.menu-bar-header {
+	/*菜单头部的样式*/
+	width:190px;
+	height: 22px;
+	border-bottom-style: none;/*底部边框没有*/
+	background-image:url("../resource/image/global/menuBar_header_background.jpg");
+	position: relative;	
+}
+
+/* 页面每个菜单标题样式 */
+.menu-bar-title{
+	font-family:宋体, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#D9E1F6;
+	text-align:center;
+}
+
+.menu-bar-title a , .menu-bar-title a:hover{/*菜单标题中的链接的样式，共同的部分*/
+	color: #FFFFFF;
+	display:block;
+	text-decoration:none;
+	width:180px;
+	background-repeat: no-repeat;
+	background-position: 150px 6px;
+	cursor: pointer;
+}
+.menu-bar-title a:link{/*菜单标题中的链接的样式，共同的部分*/
+	color: #D9E1F6;
+	display:block;
+	text-decoration:none;
+	width:180px;
+	background-repeat: no-repeat;
+	background-position: 150px 6px;
+	cursor: pointer;
+}
+
+
+/*====================
+	菜单标题中的箭头图片
+======================*/
+.on{
+	color: #D9E1F6;
+	display:block;
+	text-decoration:none;
+	width:180px;
+	background-repeat: no-repeat;
+	background-position: 150px 6px;
+	cursor: pointer;
+	background-image: url(/afunms/resource/image/arrow_up.gif);/*向上的箭头-暗色*/
+}
+.on:hover{
+	color: #D9E1F6;
+	display:block;
+	text-decoration:none;
+	width:180px;
+	background-repeat: no-repeat;
+	background-position: 150px 6px;
+	cursor: pointer;
+	background-image: url(/afunms/resource/image/arrow_up_o.gif);/*向上的箭头-亮色*/
+}
+.off{
+	color: #D9E1F6;
+	display:block;
+	text-decoration:none;
+	width:180px;
+	background-repeat: no-repeat;
+	background-position: 150px 6px;
+	cursor: pointer;
+	background-image: url(/afunms/resource/image/arrow_down.gif);/*向下的箭头-暗色*/
+}
+.off:hover{
+	color: #D9E1F6;
+	display:block;
+	text-decoration:none;
+	width:180px;
+	background-repeat: no-repeat;
+	background-position: 150px 6px;
+	cursor: pointer;
+	background-image: url(/afunms/resource/image/arrow_down_o.gif);/*向下的箭头-亮色*/
+}
+
+/* 页面每个菜单体样式 */
+.menu-bar-body{
+	width:190px;
+	background-color:#ffffff;
+	background-position :top;
+	text-align:left;
+	padding:10px;
+	overflow:hidden;
+	/*
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #03493c;
+	border-left-color: #03493c;
+	*/
+}
+
+/* 页面每个菜单列表样式 */
+.menu-bar-body-list{
+	font-size: 12px;
+	color: #002280;
+	width: 165px;/*宽度*/
+	/*border: 1px solid #2A4DAB;*/
+	text-align:left;
+	padding:0px 5px;
+	voice-family:"\"}\"";
+	voice-family:inherit;
+	width:165px;
+	overflow:hidden;
+}
+
+/* 页面每个菜单列表样式 */
+.menu-bar-body-list ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	padding-left:7px;
+}
+
+/* 页面每个菜单项样式 */
+.menu-bar-body-list li{
+	margin:0;
+	padding:2;
+	padding-left:5px;
+}
+
+.menu-bar-body-list a{
+	color:#002280;
+	text-decoration:none;
+}
+.menu-bar-body-list a:link{
+	color:#002280;
+}
+.menu-bar-body-list a:hover{
+	color:#296DC1;
+	text-decoration:underline;
+}
+.menu-bar-body-list a:active{
+	color:#296DC1;
+}
+
+/* 页面每个菜单底部样式 */
+.menu-bar-footer {
+	width:100%;
+	background-image:url("../resource/image/global/menuBar_footer_background.jpg");
+	float: left;
+}
+
+/* ======= 页面菜单样式结束 ==========*/

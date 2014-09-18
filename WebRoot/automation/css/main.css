@@ -1,0 +1,242 @@
+@charset="utf-8";
+
+html,body{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*First part*/
+.part01{
+	float: left;
+	margin:0px;
+	border: 1px solid #437EBF;
+	border-top:0px;
+	border-bottom:0px;
+	width: 49.8%;
+	height: 260px;
+}
+
+.part01_title {
+	background-image: url(../images/sqlt_23.png);
+	background-repeat: repeat;
+	width: 100%;
+	height: 33px;
+}
+
+.part01_title_name {
+	float: left;
+	margin-top: 8px;
+	margin-left: 10px;
+	color: white;
+	font-weight: bold;
+}
+
+.part01_title_img {
+	float: left;
+	margin-left: 16px;
+	margin-top: 10px;
+}
+
+.part01_title_more {
+	float: left;
+	margin-left: 306px;
+	margin-top: 7px;
+	color: rgb(32, 32, 211);
+}
+
+.part01_content{
+	margin:0px;
+	padding:0px;
+	float:left;
+}
+.part01_content iframe{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:260px;
+}
+/*Second part*/
+.part02{
+	float: left;
+	margin-top: 0px;
+	margin-left:0.4%;
+	border: 1px solid #1d7ae3;
+	border-top:0px;
+	border-bottom:0px;
+	width: 49.8%;
+	height: 260px;
+}
+
+.part02_title {
+	background-image: url(../images/sqlt_23.png);
+	background-repeat: repeat;
+	width: 100%;
+	height: 33px;
+}
+
+.part02_title_name {
+	float: left;
+	margin-top: 8px;
+	margin-left: 10px;
+	color: white;
+	font-weight: bold;
+}
+
+.part02_title_img {
+	float: left;
+	margin-left: 16px;
+	margin-top: 10px;
+}
+
+.part02_title_more {
+	float: left;
+	margin-left: 70%;
+	margin-top: 7px;
+	color: rgb(32, 32, 211);
+}
+
+.part02_content{
+	margin:0px;
+	padding:0px;
+	float:left;
+}
+.part02_content iframe{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:260px;
+}
+/*Third part*/
+.part03{
+	float: left;
+	margin-top: 0px;
+	margin-left:0px;
+	border: 1px solid #437EBF;
+	border-top:0px;
+	width: 49.8%;
+	height: 260px;
+}
+
+.part03_title {
+	background-image: url(../images/sqlt_23.png);
+	background-repeat: repeat;
+	width: 100%;
+	height: 33px;
+}
+
+.part03_title_name {
+	float: left;
+	margin-top: 8px;
+	margin-left: 10px;
+	color: white;
+	font-weight: bold;
+}
+
+.part03_title_img {
+	float: left;
+	margin-left: 16px;
+	margin-top: 10px;
+}
+
+.part03_title_more {
+	float: left;
+	margin-left: 70%;
+	margin-top: 7px;
+	color: rgb(32, 32, 211);
+}
+
+.part03_content iframe{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:260px;
+}
+/*Forth part*/
+.part04{
+	float: left;
+	margin-top: 0px;
+	margin-left:0.4%;
+	border: 1px solid #1d7ae3;
+	border-top:0px;
+	border-bottom:0px;
+	width: 49.8%;
+	height: 260px;
+}
+
+.part04_title {
+	background-image: url(../images/sqlt_23.png);
+	background-repeat: repeat;
+	width: 100%;
+	height: 33px;
+}
+
+.part04_title_name {
+	float: left;
+	margin-top: 8px;
+	margin-left: 10px;
+	color: white;
+	font-weight: bold;
+}
+
+.part04_title_img {
+	float: left;
+	margin-left: 16px;
+	margin-top: 10px;
+}
+
+.part04_title_more {
+	float: left;
+	margin-left: 70%;
+	margin-top: 7px;
+	color: rgb(32, 32, 211);
+}
+
+.part04_content{
+	margin:0px;
+	padding:0px;
+}
+.part04_content iframe{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:260px;
+}
+
+/* 主页面涉及到的表格的样式 */
+
+th,td{
+text-align: center;
+align:center;
+}
+#customers {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	width: 100%;
+	margin:0px;
+	padding:0px;
+	border-collapse: collapse;
+}
+
+#customers td,#customers th {
+	font-size: 11px;
+	border: 1px solid #9aafe5;
+	padding: 3px 7px 2px 7px;
+}
+
+#customers td {
+	background: #dcddc0 url('<%=rootPath%>/automation/images/cell-grey.jpg');
+}
+
+#customers th{
+	font-size : 12px ;
+	text-align :left ;
+	padding-top : 5px ;
+	padding-bottom: 4px;
+	background-color:#CAE8EA ;
+	background : #dcddc0 url('<%=rootPath%>/automation/images/cell-blue.jpg') ;
+	color: #ffffff ;
+}
+
+#customers tr.alt td {
+	color:#000000;
+	background-color: #EAF2D3;
+}
